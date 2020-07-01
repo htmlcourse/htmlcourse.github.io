@@ -76,11 +76,13 @@ Universal selector (`*`), combinators (`+`, `>`, `~`, ' ', `||`).
 Paulina Hetman created a Star Wars themed specificity game to help you get the hang of counting specificity.
 
 <div class="rules">
+
 ![Darth Vader](https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/persos-darth-vader.svg) -- count the number of ID selectors **strength value = 1 0 0**
 
 ![Boba Fett](https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/persos-boba-fett.svg) -- count the number of class selectors, attributes selectors, and pseudo-classes strength value = 1 0**
 
 ![Storm Trooper](https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/persos-stormtrooper.svg) -- count the number of type selectors and pseudo-elements **strength value = 1**
+
 </div>
 <style>
 .rules img {
